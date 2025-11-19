@@ -2,7 +2,7 @@ name: Dess Monitor Night Switch
 
 on:
   schedule:
-    - cron: '0 20 * * *'  # triggers daily at 20:00 UTC
+    - cron: '0 21 * * *'  # triggers daily at 20:00 UTC
   workflow_dispatch:
 
 jobs:
